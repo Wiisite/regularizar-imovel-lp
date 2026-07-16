@@ -304,7 +304,7 @@ export default function RegularizarImovel() {
         title={`Advogado para Regularizar Imóvel em ${location.city} - ${location.state} | PP Advogados`}
         description={`Precisa regularizar seu imóvel em ${location.city}? Conte com advogado imobiliário especialista para regularização de imóveis, usucapião e inventário em ${location.city} - ${location.state}. Consulta imediata.`}
         keywords={`regularizar imovel ${location.city}, advogado imobiliário ${location.city}, usucapião ${location.city}, inventario ${location.city}, regularização de imóveis SP`}
-        url={`https://regularizar.ppadv.com.br?cidade=${location.city}`}
+        url={`https://regularizar-imovel.ppadv.com.br?cidade=${location.city}`}
       />
       <StructuredData type="LocalBusiness" data={localBusinessSchema} />
 
